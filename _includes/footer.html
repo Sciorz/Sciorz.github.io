@@ -20,7 +20,6 @@
       {%- endif -%}
       <div class="footer__author-links">
         {%- include author-links.html author=_site_author -%}
-		this is just a test
       </div>
     </aside>
 
@@ -30,6 +29,8 @@
       {%- assign _paths_rss = __return -%}
       {%- include snippets/locale-to-string.html locale=site.data.locale.NAV.RSS -%}
       {%- assign _locale_nav_rss = __return -%}
+
+	  <span>
       <p class="menu menu--center">
         <span>© {{ site.title }} {{ site.data.locale.COPYRIGHT_DATES }}</span>
         <a type="application/rss+xml" href="{{ _paths_rss }}">{{ _locale_nav_rss }}</a>
@@ -37,9 +38,10 @@
       <p>Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a> & <a
         title="TeXt is a succinct theme for blogging." href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
       </p>
+	  </span>
 
       <p class="menu menu--center">
-        <span>My friends</span>
+        <h1>My friends</h1>
 		<a href="https://zuhiul.github.io/">楠神</a>
 		<a href="https://lucien.ink/">水先生</a>
       </p>
