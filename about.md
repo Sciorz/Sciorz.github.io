@@ -8,7 +8,7 @@ titles:
 key: page-about
 ---
 
-在一个石油大学读着计算机专业的`ACM`分母选手
+在一个石油大学读着计算机专业的ACM分母选手
 
 
 如果你喜欢我的博客,可以[mailtoMe](mailto:sciorz@qq.com)
