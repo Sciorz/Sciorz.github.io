@@ -20,8 +20,10 @@
       {%- endif -%}
       <div class="footer__author-links">
         {%- include author-links.html author=_site_author -%}
+		this is just a test
       </div>
     </aside>
+
     <footer class="site-info">
       {%- assign _paths_rss = site.paths.rss | default: site.data.variables.default.paths.rss -%}
       {%- include snippets/get-nav-url.html path=_paths_rss -%}
