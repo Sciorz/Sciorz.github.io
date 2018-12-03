@@ -9,12 +9,12 @@ key: page-friends
 ---
 
 
+- [楠神](https://zuhiul.github.io/)
+- [水先生](https://lucien.ink)
+
+
 
 ```javascript
 (() => console.log('Hello, World!'))();
 ```
-
-
-- [楠神](https://zuhiul.github.io/)
-- [水先生](https://lucien.ink)
 
