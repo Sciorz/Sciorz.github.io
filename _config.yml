@@ -50,6 +50,8 @@ author:
   github    : "Sciorz" the last part of your profile url, e.g. https://github.com/Sciorz
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
   telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
+  codeforces: "sciorz" the last part of your profile url, e.g. https://codeforces.com/profile/Sciorz
+
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
