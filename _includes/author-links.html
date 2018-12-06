@@ -88,5 +88,14 @@
         </a>
       </li>
     {%- endif -%}
+
+    {%- if _author.codeforces -%}
+      <li title="{{ __return | replace: '[NAME]', 'codeforces' }}">
+        <a class="button button--circle codeforces-button" itemprop="sameAs" href="https://codeforces.com/profile/{{ _author.codeforces }}" target="_blank">
+          <div class="icon">{%- include svg/icon/social/codeforces.png -%}</div>
+        </a>
+      </li>
+    {%- endif -%}
+
   </ul>
 </div>
