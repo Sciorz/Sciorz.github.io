@@ -171,7 +171,7 @@ int main() {
 	while(T--) {
 		int n,m,q;
 		scanf("%d%d%d", &n,&m,&q);
-		for(int i = 0; i <= n; ++i) memset(ch[i],0,sizeof ch[i]),mp[i].clear();
+		for(int i = 0; i <= max(n,m); ++i) memset(ch[i],0,sizeof ch[i]),mp[i].clear();
 		for(int i = 1; i <= n; ++i) {
 			int x;
 			char str[2];
