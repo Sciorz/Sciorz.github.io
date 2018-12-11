@@ -2,10 +2,11 @@
 layout: article
 title: 焦作现场赛部分题解
 tags: 后缀数组 单调栈 字典树 哈希 
+excerpt_type: html
 ---
 
 
-题目链接： [https://codeforces.com/gym/102028](https://codeforces.com/gym/102028){:target="_blank"}
+题目链接： <https://codeforces.com/gym/102028>{:target="_blank"}
 
 ## H.Can You Solve the Harder Problem?
 显然是个后缀数组，赛场上卡在了求区间每个前缀最大值的和的问题上。~~想了半天只想到一种莫队加单调栈的巨难写的搞法。最后几十分钟还在处理莫队转移的边界问题，最后没写完就结束了。~~
