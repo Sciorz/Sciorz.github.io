@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: article
 title: Eoj 2018.12月赛 Ｆ.日落轨迹
 tags: 后缀数组  
 articles:
