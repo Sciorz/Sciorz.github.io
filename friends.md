@@ -18,4 +18,3 @@ key: page-friends
 ```javascript
 (() => console.log('Hello, World!'))();
 ```
-
